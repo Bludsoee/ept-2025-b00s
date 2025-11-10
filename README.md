@@ -47,6 +47,7 @@ Steps:
 	 - [B00S](/writeups/web/EPT%20Cinemas/B00S)  
 	 - [sifi](/writeups/web/EPT%20Cinemas/sifi)  
  - **[Secretadmin](/writeups/web/Secretadmin)**
+	 - [big](/writeups/web/Secretadmin/big)  
  - **[shop-8](/writeups/web/shop-8)**
 	 - [nørds](/writeups/web/shop-8/nørds)  
 	 - [sifi](/writeups/web/shop-8/sifi)  
