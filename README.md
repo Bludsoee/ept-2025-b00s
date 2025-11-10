@@ -34,21 +34,24 @@ Steps:
  - **[Hackermon](/writeups/web/Hackermon)**
 	 - [big](/writeups/web/Hackermon/big)  
  - **[LOUD CRM](/writeups/web/LOUD%20CRM)**
+	 - [B00S](/writeups/web/LOUD%20CRM/B00S)  
  - **[Yarr!](/writeups/web/Yarr!)**
  - **[Of CORS I Can Help!](/writeups/web/Of%20CORS%20I%20Can%20Help!)**
 	 - [Kernel Carnage](/writeups/web/Of%20CORS%20I%20Can%20Help!/Kernel%20Carnage)  
+	 - [B00S](/writeups/web/Of%20CORS%20I%20Can%20Help!/B00S)  
 	 - [sifi](/writeups/web/Of%20CORS%20I%20Can%20Help!/sifi)  
 	 - [bwnfools](/writeups/web/Of%20CORS%20I%20Can%20Help!/bwnfools)  
 	 - [synapse_burnout](/writeups/web/Of%20CORS%20I%20Can%20Help!/synapse_burnout)  
  - **[ScriptMe](/writeups/web/ScriptMe)**
  - **[EPT Cinemas](/writeups/web/EPT%20Cinemas)**
+	 - [B00S](/writeups/web/EPT%20Cinemas/B00S)  
 	 - [sifi](/writeups/web/EPT%20Cinemas/sifi)  
  - **[Secretadmin](/writeups/web/Secretadmin)**
  - **[shop-8](/writeups/web/shop-8)**
 	 - [nørds](/writeups/web/shop-8/nørds)  
 	 - [sifi](/writeups/web/shop-8/sifi)  
  - **[Sigma2KQL Converter](/writeups/web/Sigma2KQL%20Converter)**
-	 - [Iku-toppene](/writeups/web/Sigma2KQL%20Converter/Iku-toppene) 
+	 - [Iku-toppene](/writeups/web/Sigma2KQL%20Converter/Iku-toppene)  
  - **[CloudNotes](/writeups/web/CloudNotes)**
 	 - [big](/writeups/web/CloudNotes/big)  
  - **[shop-7](/writeups/web/shop-7)**
@@ -56,6 +59,7 @@ Steps:
  - **[Spin-For-Flag](/writeups/web/Spin-For-Flag)**
 	 - [sifi](/writeups/web/Spin-For-Flag/sifi)  
  - **[breadcrumbs](/writeups/web/breadcrumbs)**
+	 - [B00S](/writeups/web/breadcrumbs/B00S)  
 ### crypto
  - **[Hyperactive](/writeups/crypto/Hyperactive)**
  - **[Make-a-String](/writeups/crypto/Make-a-String)**
