@@ -67,6 +67,7 @@ Steps:
 	 - [big](/writeups/web/breadcrumbs/big)  
 	 - [B00S](/writeups/web/breadcrumbs/B00S)  
 	 - [bwnfools](/writeups/web/breadcrumbs/bwnfools)  
+	 - [synapse_burnout](/writeups/web/breadcrumbs/synapse_burnout)  
 ### crypto
  - **[Hyperactive](/writeups/crypto/Hyperactive)**
  - **[Make-a-String](/writeups/crypto/Make-a-String)**
