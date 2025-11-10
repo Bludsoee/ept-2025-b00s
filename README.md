@@ -102,6 +102,7 @@ Steps:
  - **[Buffy the fortune teller](/writeups/misc/Buffy%20the%20fortune%20teller)**
 ### reversing
  - **[Frozen Labyrinth](/writeups/reversing/Frozen%20Labyrinth)**
+	 - [highly-regarded](/writeups/reversing/Frozen%20Labyrinth/highly-regarded)  
  - **[Broken Mario 2](/writeups/reversing/Broken%20Mario%202)**
  - **[FlagChecker](/writeups/reversing/FlagChecker)**
 	 - [enso](/writeups/reversing/FlagChecker/enso)  
