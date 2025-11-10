@@ -1,4 +1,4 @@
-# Writeup: The Claw
+# 🔥 Even moar pixel perfect 
 ## Team: Iku-toppene 🐮
 **Author:** jole
 
