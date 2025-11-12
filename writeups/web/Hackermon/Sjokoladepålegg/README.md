@@ -45,5 +45,5 @@ Paste the new generated JWT token (don't forget the dot at the end), and Send th
 ![Flag in response](img_11.png)
 
 Summary:
-The exploit works because the server does **not** verify JWT signatures. Looking at its source code, we can se the function `verifyTokenPermissive` calls `jwt.decode(token)` which only base64-decodes the token payload.
+The exploit works because the server does not verify JWT signatures. Looking at its source code, we can se the function `verifyTokenPermissive` calls `jwt.decode(token)` which only base64-decodes the token payload.
 It does not validate the signature or the `alg` field. Combined with the server signing tokens using `alg: "none"` (see `CRYPTO_METHOD`),  we can generate a custom unsigned token with `hpEnemy: 0` and the server will accept it and return the flag. 
