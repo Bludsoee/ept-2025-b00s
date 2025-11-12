@@ -14,7 +14,6 @@ We can use the POST file "round"'response from Network tab:
 ![Round POST](img_1.png)
 
 Clicking on it, we observe the Response:
-
 ![Round Response](img_2.png)
 
 This is the JWT token from "round" which is round 1 in this case. We want to beat the game. 
@@ -25,11 +24,9 @@ We load the JWT token into https://jwtauditor.com/ using the JWT Editor in order
 ![JWT Editor](img_4.png)
 
 /server/index.js reveals that the 'alg:' is set to "none" from the base64 string '"bm9uZQ=="', allowing us to build and use our own payload without any type algorithm property:
-
 ![alg none](img_5.png)
 
 It also reveals that it doesn't need any signature for verification:
-
 ![no signature needed](img_6.png)
 
 We then click "Generate JWT" to get the new JWT token:
@@ -39,7 +36,6 @@ We then click "Generate JWT" to get the new JWT token:
 ![gameState payload verified](img_8.png)
 
 We proceed to right click the "round" and use Edit and Resend tool:
-
 ![Edit & Resend](img_9.png)
 
 You'll be able to edit and replace the JWT token in the New Request tab:
