@@ -8,7 +8,7 @@ Curvy throws three elliptic-curve puzzles at us.
 Each `.sage` file takes 6 bytes of the flag and transforms it into an elliptic-curve point.  
 Our job is to reverse those transformations and reconstruct the flag.
 
-I ran everything in SageMath on WSL (Ubuntu 22.04) because the online SageMathCell kept melting. One point to the Readme file for the recommendation.
+# I ran everything in SageMath on WSL (Ubuntu 22.04) because the online SageMathCell kept melting. One point to the Readme file for the recommendation.
 
 ---
 
@@ -95,7 +95,7 @@ Running it gives us the first part of the flag:
 
 # Part 2 - Ell-2 Flag
 
-Things get more interesting. ell-2.sage defines a curve whose order looks like this:
+Things get more interesting, and took me quite a while. ell-2.sage defines a curve whose order looks like this:
 
 ```
 2^2 * 3 * 18479537^2 * 785027357 * 2045936509 *
@@ -140,11 +140,11 @@ Running it in Sage:
 
 # Part 3 - Ell-3 Flag
 
-This one took me a while longer. The third script hints:
+For this one, the third script hints:
 
 “since you’re so SMART…”
 
-A subtle reference to Nigel Smart’s attack on anomalous elliptic curves.
+A subtle reference to Nigel Smart’s attack on anomalous elliptic curves!
 
 This script again does:
 
@@ -152,7 +152,7 @@ This script again does:
 
 But the curve parameters are chosen such that P.log(G) becomes much easier than it should be.
 
-Fortunately, SageMath already knows how to handle this.
+Fortunately for us, SageMath already knows how to handle this.
 Calling .log() triggers the correct algorithm internally.
 
 The solver:
@@ -183,3 +183,5 @@ There we go, the third part:
 Now for the full flag, I spliced the scripts together and voila:
 
 ![Sage Ell-123 Full Flag](img_5.png)
+
+This was a brilliant challenge, and I was pleased to actually try out Sage through WSL for the first time!
