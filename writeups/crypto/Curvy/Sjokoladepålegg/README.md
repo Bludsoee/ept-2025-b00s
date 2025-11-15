@@ -8,7 +8,8 @@ Curvy throws three elliptic-curve puzzles at us.
 Each `.sage` file takes 6 bytes of the flag and transforms it into an elliptic-curve point.  
 Our job is to reverse those transformations and reconstruct the flag.
 
-# I ran everything in SageMath on WSL (Ubuntu 22.04) because the online SageMathCell kept melting. One point to the Readme file for the recommendation.
+# I ran everything in SageMath on WSL (Ubuntu 22.04) because the online SageMathCell kept melting. So this write up is mainly for using the local one. Thanks to readme.txt for the recommendation!
+[SageMath installation guide here](https://doc.sagemath.org/html/en/installation/index.html)
 
 ---
 
@@ -102,7 +103,7 @@ Things get more interesting, and took me quite a while. ell-2.sage defines a cur
 2067106871 * 2477515409 * 2952556279^2 * 3393346153^2
 ```
 
-Smooth order = small prime factors = a nightmare. Here is where Pohlig-Hellman algorithm can help us.
+Smooth order = small prime factors = a nightmare. See references.
 
 This script does:
 
@@ -113,6 +114,8 @@ Where:
 `k = int(flag_bytes.hex(), 16)`
 
 Our job is basically; Given G and P, find k.
+
+Here is where Pohlig-Hellman algorithm can help us. 
 
 The solver ends up like this:
 
@@ -184,4 +187,12 @@ Now for the full flag, I spliced the scripts together and voila:
 
 ![Sage Ell-123 Full Flag](img_5.png)
 
-This was a brilliant challenge, and I was pleased to actually try out Sage through WSL for the first time!
+This was a brilliant challenge, and I was pleased to actually both try out and learn more about SageMath.
+
+References:
+
+[SageMath installation guide here](https://doc.sagemath.org/html/en/installation/index.html)
+[Smooth numbers](https://en.wikipedia.org/wiki/Smooth_number)
+[Discrete Logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm)
+[Pohlig-Hellman algorithm](https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm)
+[SageMath Ecliptic Curves Documentation](https://doc.sagemath.org/html/en/reference/arithmetic_curves/index.html)
