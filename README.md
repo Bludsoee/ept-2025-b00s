@@ -109,6 +109,7 @@ Steps:
  - **[FOMO (root)](/writeups/boot2root/FOMO%20(root))**
  - **[FOMO (user)](/writeups/boot2root/FOMO%20(user))**
  - **[PotatoHead (root)](/writeups/boot2root/PotatoHead%20(root))**
+	 - [JQ](/writeups/boot2root/PotatoHead%20(root)/JQ)  
 	 - [RumbleInTheJungle](/writeups/boot2root/PotatoHead%20(root)/RumbleInTheJungle)  
 	 - [WinnieThePwn](/writeups/boot2root/PotatoHead%20(root)/WinnieThePwn)  
 ### sanity
