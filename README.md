@@ -90,6 +90,7 @@ Steps:
 	 - [bootplug](/writeups/crypto/420BasedIt/bootplug)  
 	 - [big](/writeups/crypto/420BasedIt/big)  
 	 - [bwnfools](/writeups/crypto/420BasedIt/bwnfools)  
+	 - [mne00F](/writeups/crypto/420BasedIt/mne00F)  
  - **[Srstokken](/writeups/crypto/Srstokken)**
 	 - [coldboots](/writeups/crypto/Srstokken/coldboots)  
  - **[Post Quantum Resistant Crypto for Enterprises](/writeups/crypto/Post%20Quantum%20Resistant%20Crypto%20for%20Enterprises)**
@@ -183,6 +184,7 @@ Steps:
  - **[Insecure Exfil](/writeups/forensics/Insecure%20Exfil)**
 	 - [Trånn Jånn](/writeups/forensics/Insecure%20Exfil/Trånn%20Jånn)  
 	 - [bwnfools](/writeups/forensics/Insecure%20Exfil/bwnfools)  
+	 - [mne00F](/writeups/forensics/Insecure%20Exfil/mne00F)  
  - **[Censoring](/writeups/forensics/Censoring)**
 	 - [abyss](/writeups/forensics/Censoring/abyss)  
  - **[Insider Threat](/writeups/forensics/Insider%20Threat)**
