@@ -165,6 +165,7 @@ Steps:
 ### onsite
  - **[Quiz-About](/writeups/onsite/Quiz-About)**
 	 - [bootplug](/writeups/onsite/Quiz-About/bootplug)  
+	 - [fessemisk](/writeups/onsite/Quiz-About/fessemisk)  
  - **[EPT Cyber Range](/writeups/onsite/EPT%20Cyber%20Range)**
 	 - [GTCTF](/writeups/onsite/EPT%20Cyber%20Range/GTCTF)  
  - **[The Claw](/writeups/onsite/The%20Claw)**
